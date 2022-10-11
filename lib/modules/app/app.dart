@@ -1,2 +1,2 @@
-export 'presentation/app_index.dart';
-export 'presentation/main_page.dart';
+export 'presentation/pages/app_index.dart';
+export 'presentation/pages/main_page.dart';

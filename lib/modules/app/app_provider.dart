@@ -1,6 +1,6 @@
+import 'package:ca_store/modules/app/presentation/bloc/change_language/change_language_bloc.dart';
+import 'package:ca_store/modules/app/presentation/bloc/change_theme/change_theme_bloc.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'application/change_language/change_language_bloc.dart';
-import 'application/change_theme/change_theme_bloc.dart';
 import 'injection_container.dart';
 
 

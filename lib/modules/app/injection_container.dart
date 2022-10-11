@@ -1,10 +1,10 @@
+import 'package:ca_store/modules/app/presentation/bloc/change_language/change_language_bloc.dart';
+import 'package:ca_store/modules/app/presentation/bloc/change_theme/change_theme_bloc.dart';
 import 'package:dio/dio.dart';
 import 'package:get_it/get_it.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 
 import '../../common/networks/http_client.dart';
-import 'application/change_language/change_language_bloc.dart';
-import 'application/change_theme/change_theme_bloc.dart';
 
 GetIt getIt = GetIt.instance;
 
