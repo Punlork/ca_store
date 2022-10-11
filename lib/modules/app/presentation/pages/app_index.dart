@@ -2,12 +2,11 @@ import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:flutter_localizations/flutter_localizations.dart';
 
-import '../../../common/l10n/l10n.dart';
-
-import '../app_provider.dart';
-import '../app_router.dart';
-import '../application/change_language/change_language_bloc.dart';
-import '../application/change_theme/change_theme_bloc.dart';
+import '../../../../common/l10n/l10n.dart';
+import '../../app_provider.dart';
+import '../../app_router.dart';
+import '../bloc/change_language/change_language_bloc.dart';
+import '../bloc/change_theme/change_theme_bloc.dart';
 
 class AppIndex extends StatelessWidget {
   const AppIndex({super.key});
